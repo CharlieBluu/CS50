@@ -1,10 +1,10 @@
-#include stdio.h
+#include <stdio.h>
 
-void print_row(int bricks)
+void print_row(int bricks);
 
 int main (void) {
 
-    int height 
+    int height;
     printf("Height: ");
     scanf("%i", &height);
 
